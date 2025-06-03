@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.type-of-foodname{
+    font-weight:500;
+    font-size:4vw;
+    padding-left: 5vw;
+    
+}
+
+.foodlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 6.5%; */
+    padding: 1%;
+    background-color:rgba(211, 211, 211, 0.198);
+}
+
+.c-foodlistcard{
+    min-width:20%;
+    max-width: 20%;
+    height:23vw;
+    margin:2vw ;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.359) ;
+    transition: all 1s;
+}
+
+.c-foodlistcard:hover{
+    transform: scale(1.1);
+}
+
+.c-card-img{
+    height: 70%;
+}
+
+.c-card-img img{
+   
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+
+.card-body{
+    height: 30%;
+    position: relative;
+}
+
+.likebutton{
+   padding-top: 2%;
+    width: 20%;
+    font-size:x-large;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.listcardtext{
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:600px)  {
+    .type-of-foodname{
+        height:10vw;
+        font-size:9vw;
+        padding-left:3vw;
+    }
+
+    .foodlist{
+        margin-top:7vw;
+        max-height:75vh;
+        overflow-y: auto;
+    }
+
+    .foodlist::-webkit-scrollbar {
+        display: none;
+    }
+
+    .c-foodlistcard{
+        min-width:45%;
+        max-width:45%;
+        height: 65vw;
+        margin:3vw auto ;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.359) ;
+    }
+
+    .listcardtext{
+        font-size:5vw;
+        font-weight: 600;
+    }
+}

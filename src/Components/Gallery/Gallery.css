@@ -1,0 +1,171 @@
+.gallery-tex{
+    /* border: 2px solid yellowgreen; */
+    height: 5vw;
+    padding-left: 3vw;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+}
+
+.main-gallery{
+    /* border: 2px solid red; */
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.gallery-part1{
+    /* border: 2px solid rgb(47, 0, 255); */
+    height: 50%;
+    display: flex;
+    gap: 1vw;
+}
+
+.gallery-part2{
+    /* border: 2px solid rgb(0, 213, 255); */
+    height: 50%;
+    display: flex;
+    gap: 1vw;
+}
+
+.gimgbox1,.gimgbox2,.gimgbox3{
+    /* border: 3px solid palevioletred; */
+    height: 100%;
+    width: 33.33%;
+}
+
+.gimgbox{
+    /* border: 3px solid palevioletred; */
+    height: 100%;
+    width: 33.33%;
+}
+
+.g-img-1,.g-img-2,.g-img-3,.g-img-4,.g-img-5,.g-img-6{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+}
+
+.g-img-1{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-p1-img1.webp");
+}
+
+.g-img-2{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-p1-img2.webp");
+}
+
+.g-img-3{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-p1-img3.jpg");
+}
+
+
+.g-img-4{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img1.jpeg");
+}
+
+.g-img-5{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img2.jpg");
+}
+
+.g-img-6{
+    background-image:url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img3.jpeg");
+}
+
+
+
+@media only screen and (max-width:600px){
+    .gallery-tex{
+        height:max-content;
+        font-size:9vw;
+    }
+
+    .main-gallery{
+        height:195vw;
+    }
+
+    .gallery-part2{
+        display:none;
+    }
+
+    .gallery-part1{
+        height:100%;
+        width: 100%;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .gimgbox1 {
+        width: 100%;
+        height: 33.33%;
+        animation-name: imgchange1;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .gimgbox2{
+        width: 100%;
+        height: 33.33%;
+        animation-name: imgchange2;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .gimgbox3{
+        width: 100%;
+        height: 33.33%;
+        animation-name: imgchange3;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+
+    @keyframes imgchange1 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity:1; 
+        }
+        51% {
+            background-image: url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img1.jpeg");
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes imgchange2 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity:1; 
+        }
+        51% {
+            background-image: url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img2.jpg");
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes imgchange3 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity:1; 
+        }
+        51% {
+            background-image: url("C:\Users\divyesh999\Desktop\react food web\food-web\public\assets\gallery\g-img3.jpeg");
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}

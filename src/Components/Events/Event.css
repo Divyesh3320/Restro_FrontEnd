@@ -1,0 +1,116 @@
+.c-event-content{
+    /* height:100vh; */
+    /* border: 2px solid red; */
+}
+
+.c-event-heading{
+    height: 5vw;
+    padding-left: 3vw;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border: 2px solid black; */
+    font-size: 3vw;
+}
+
+.c-enevts{
+    height:40vw ;
+    display: flex;
+    border: 3px solid gray;
+    
+}
+
+.c-event-img{
+    width: 60%;
+    height: 100%;
+    
+}
+
+.c-event-booking{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.c-event-carousel{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid red; */
+}
+
+.c-event-carousel img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+ .c-event-img .carousel-inner,.carousel-item{
+    height: 100%;
+    width: 100%;
+    /* border: 3px solid green; */
+}
+
+.c-event-booking h1{
+    text-align: center;
+    padding:1vw;
+}
+
+.c-event-booking .event-booking-para{
+    text-align:center;
+    font-size:3vw;
+}
+
+.c-event-booking .book-btn{
+    /* border: 2px solid black; */
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: auto;
+    width: 7vw;
+    padding:5px 0px;
+    border-radius:10px;
+    background-color:aqua;
+}
+
+.c-event-booking .book-btn:hover{
+    box-shadow:3px 3px 30px rgb(5, 175, 232);
+}
+
+@media only screen and (max-width:600px){
+    .c-event-heading{
+        height:max-content;
+        font-size:9vw;
+    }
+
+    .c-enevts{
+        flex-direction: column;
+        /* height:130vw; */
+        height: max-content;
+    }
+
+    .c-event-img{
+        /* height: 60%; */
+        height: 80vw;
+        width: 100%;
+    }
+
+    .c-event-booking{
+        /* height: 40%; */
+        height:max-content;
+        width: 100%;
+    }
+
+    .c-event-booking h1{
+        padding-top:4vw;
+    }
+
+    .c-event-booking .event-booking-para{
+        font-size:5vw;
+    }
+
+    .c-event-booking .book-btn{
+        width: 20vw;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+}

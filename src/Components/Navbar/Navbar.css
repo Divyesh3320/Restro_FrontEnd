@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.c-navbar{
+    display: flex;
+    align-items: center;
+    height: 4vw;
+    justify-content:space-between;
+    color: white;
+    background-color: black;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* for mobile view */
+.c-menuicon{
+    color: white;
+    font-size: 40px;
+    display:none;
+}
+
+.c-navlogo{
+    color: red;
+    margin-left:2vw;
+    height: 4vw;
+}
+
+.c-navlogo img{
+    height: 4vw;
+}
+.c-navlinks{
+    display: flex;
+    width:50vw;
+    font-size:1.5vw;
+    height: 4vw;
+    align-items: center;
+    margin-left: auto;
+}
+
+.c-links{
+    width:70vw;
+    justify-content: space-around;
+    margin-top: 1vw;
+}
+
+/* not set img use icon */
+/* .c-usericon img{
+    height:3vw;
+} */
+
+.c-usericon{
+    margin-right: 2vw;
+    height: 3vw;
+    width: 3vw;
+    font-size:2vw;
+    line-height: 1;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.login-symbol{ 
+    height: 100%;
+}
+
+/* .plus-symbol{
+    height: 40%;
+    position: absolute;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    color: red;
+    font-size: 2.5vw;
+    left: 60%;
+    top: 45%;
+    z-index: 10;
+} */
+
+.c-navlinks .c-links li a{
+    transition: color 1s;
+}
+
+.c-navlinks .c-links li a:hover{
+    color: red;
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+    .c-navbar{
+        height: 14vw;
+        top: 0;
+    }
+
+    .c-navlinks{
+        display: none;
+    }
+
+    .c-menuicon{
+        display:block;
+        width: 12vw;
+        font-size: 10vw;
+        margin-left: 6vw;
+        color:white;
+        text-align: center;
+    }
+
+    .c-navlogo{
+        width: 40vw;
+        height: 12vw;
+    }
+
+    .c-navlogo img{
+        width: 40vw;
+        height: 11vw;
+        object-fit: contain;
+    }
+
+    .c-usericon{
+        margin-right: 6vw;
+        height: 11vw;
+        width: 12vw;
+        font-size: 10vw;
+    }
+
+    .c-usericon img{
+        height: 11vw;
+        width: 12vw;
+    }
+
+
+}

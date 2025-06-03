@@ -1,0 +1,253 @@
+/* ---- user navbar cssss------ */
+
+/* .user-header{
+    width:100vw;
+    height:10vh;
+    background-color: rgba(0, 0, 0, 0.901);
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.user-navbar{
+    display: flex;
+    align-items: center;
+    height: 4vw;
+    justify-content:space-between;
+    color: white;
+    background-color: black;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* for mobile view */
+.user-menuicon{
+    color: white;
+    display:none;
+    /* border: 2px solid red; */
+}
+
+.user-navlogo{
+    color: red;
+    margin-left:2vw;
+    height: 4vw;
+}
+
+.user-navlogo img{
+    height: 4vw;
+}
+.user-navlinks{
+    display: flex;
+    width:50vw;
+    font-size:1.5vw;
+    height: 4vw;
+    align-items: center;
+    margin-left: auto;
+}
+
+.user-navlinks .user-links li a{
+    transition: color 1s;
+}
+
+.user-navlinks .user-links li a:hover{
+    color: red;
+}
+
+.user-links{
+    width:70vw;
+    justify-content: space-around;
+    margin-top: 1vw;
+}
+
+/* not set img use icon */
+.user-usericon img{
+    height:3vw;
+}
+
+.user-usericon{
+    margin-right: 2vw;
+    height: 3vw;
+    width: 3vw;
+    font-size:2vw;
+    line-height: 1;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    background-color:whitesmoke;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+    .user-navbar{
+        height: 14vw;
+        top: 0;
+    }
+
+    .user-navlinks{
+        display: none;
+    }
+
+    .user-menuicon{
+        display:block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 12vw;
+        height: 100%;
+        font-size: 30vw;
+        margin-left:3vw;
+        color:white;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+   
+
+    .back-icon{
+        height: 80%;
+    }
+
+    .user-navlogo{
+        width: 50vw;
+        height: 12vw;
+        /* border: 2px solid red; */
+    }
+
+    .user-navlogo img{
+        margin-top:5px;
+        width: 50vw;
+        height: 11vw;
+        object-fit:cover;
+    }
+
+    .user-usericon{
+        margin-right:4vw;
+        height: 11vw;
+        width: 11vw;
+        font-size: 10vw;
+    }
+
+    .user-usericon img{
+        height: 11vw;
+        width: 12vw;
+    }
+
+
+}
+
+
+
+/* ------user content csss ----- */
+
+.user-content{
+    height:calc(100vh - 4vw);
+    width:100vw;
+    /* border: 3px solid red; */
+    display: flex;
+}
+
+.u-btn:hover{
+    border: 3px solid black;
+}
+
+.user-leftbar{
+    padding-top:20px;
+    height:100%;
+    width:20%;
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+    align-items: center;
+}
+
+.u-left-box{
+    text-align: center;
+    padding:3%;
+    width:80%;
+    font-size:27px;
+    font-weight: 600;
+    border: 3px solid black;
+}
+
+.user-rightbar{
+    height: 100%;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+.user-rightbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media only screen and (max-width:600px) {
+    .user-content{
+        height:max-content;
+        display:block;
+    }
+
+    .user-leftbar{
+        padding: 0px;
+        padding-left:2vw;
+        width:100%;
+        height: 10vh;
+        /* border: 2px solid green; */
+        border-bottom: 2px solid gray;
+        overflow-x:scroll;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        background-color:white;
+    }
+
+    .user-leftbar::-webkit-scrollbar {
+        display: none;
+      }
+
+    .u-left-box{
+        width:max-content;
+        padding:2vw;
+        margin-right:10vw;
+        border:2px solid black;
+    }
+
+    .u-btn:hover{
+        border: 3px solid rgb(226, 14, 14);
+    }
+
+    .user-rightbar{
+        margin-top: 1%;
+        width:100%;
+        height:calc(100vh - 14vw - 10vh);
+        /* border: 2px solid red; */
+    }
+
+
+}
