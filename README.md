@@ -13,34 +13,19 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 ## 🚀 Features
 
 ### 👤 User Side
-
-- **Responsive UI**: Mobile-first design using Bootstrap 5.  
-  ![Responsive UI](screenshots/user-responsive-ui.png)
-
-- **User Authentication**: Email/password login and Google login (OAuth 2.0) using JWT.  
-  ![User Authentication](screenshots/user-authentication.png)
-
-- **Menu Listing**: Browse food items with category-based filtering.  
-  ![Menu Listing](screenshots/menu-listing.png)
-
-- **Event Booking**: Book events with real-time status updates (`Pending`, `Approved`, `Cancelled`, `Completed`) visible in profile.  
-  ![Event Booking](screenshots/event-booking.png)
-
-- **Feedback System**: Post reviews, like food items; liked items saved in user profile.  
-  ![Feedback System](screenshots/feedback-system.png)
-
+- **Responsive UI**: Mobile-first design using Bootstrap 5.
+- **User Authentication**: Email/password login and Google login (OAuth 2.0) using JWT.
+- **Menu Listing**: Browse food items with category-based filtering.
+- **Event Booking**: Book events with real-time status updates (`Pending`, `Approved`, `Cancelled`, `Completed`) visible in profile.
+- **Feedback System**: Post reviews, like food items; liked items saved in user profile.
   
 ### 🛠️ Admin Side
-
 - **Admin Dashboard**: Full CRUD operations for managing:
   - Food Categories
   - Menu Items
   - User Reviews
-  - Event Bookings  
-  ![Admin Dashboard CRUD](screenshots/admin-dashboard-crud.png)
-
-- **User Engagement Monitoring**: View user feedback and review activities.  
-  ![User Engagement](screenshots/user-engagement.png)
+  - Event Bookings
+- **User Engagement Monitoring**: View user feedback and review activities.
 
 ---
 
