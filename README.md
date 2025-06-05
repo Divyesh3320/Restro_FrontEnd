@@ -38,16 +38,8 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 | **Database** | MongoDB                        |
 | **Auth**     | JWT, Google OAuth 2.0          |
 
----
 
-## 💻 How to Run Locally
 
-### Prerequisites
-
-- Node.js and npm
-- MongoDB running locally or MongoDB Atlas account
-
-### Setup
 
 1. **Clone the repository**
 
