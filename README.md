@@ -2,11 +2,7 @@
 
 A **full-stack web application** to manage restaurant operations efficiently with distinct roles for Admin and Users. Built with **React.js, Node.js, Express.js, MongoDB**, and styled using **Bootstrap 5**, this project offers a responsive, mobile-friendly interface and robust backend functionalities.
 
----
 
-## 📅 Duration
-
-**Feb 2024 - April 2024**
 
 ---
 
