@@ -36,9 +36,3 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 
 
 
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/restaurant-management.git
-cd restaurant-management
