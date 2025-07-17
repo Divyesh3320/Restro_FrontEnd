@@ -12,7 +12,7 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 - **Responsive UI**: Mobile-first design using Bootstrap 5.
   
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752583/Screenshot_2025-07-17_171247_cmgvsv.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752583/Screenshot_2025-07-17_171247_cmgvsv.png" alt="Admin Dashboard" width="500" height="700" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
 
 - **User Authentication**: Email/password login and Google login (OAuth 2.0) using JWT.
