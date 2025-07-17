@@ -25,25 +25,25 @@ A **full-stack web application** to manage restaurant operations efficiently wit
   - Food Categories
     
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751681/Screenshot_2025-07-17_165651_bstqyn.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751876/Screenshot_2025-07-17_170055_n2nvum.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
   
   - Menu Items
     
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751681/Screenshot_2025-07-17_165651_bstqyn.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751985/Screenshot_2025-07-17_170244_jgrqwt.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
   
   - User Reviews
   
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751681/Screenshot_2025-07-17_165651_bstqyn.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752057/Screenshot_2025-07-17_170401_zhni5q.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
   
   - Event Bookings
   
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751681/Screenshot_2025-07-17_165651_bstqyn.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752126/Screenshot_2025-07-17_170507_v8qzc0.png" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
 
 - **User Engagement Monitoring**: View user feedback and review activities.
