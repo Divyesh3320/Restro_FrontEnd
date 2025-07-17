@@ -10,7 +10,17 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 
 ### 👤 User Side
 - **Responsive UI**: Mobile-first design using Bootstrap 5.
+  
+<p align="center">
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752583/Screenshot_2025-07-17_171247_cmgvsv.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+</p>
+
 - **User Authentication**: Email/password login and Google login (OAuth 2.0) using JWT.
+  
+<p align="center">
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752352/Screenshot_2025-07-17_170822_horwug.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+</p>
+
 - **Menu Listing**: Browse food items with category-based filtering.
 
 <p align="center">
@@ -18,6 +28,11 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 </p>
   
 - **Event Booking**: Book events with real-time status updates (`Pending`, `Approved`, `Cancelled`, `Completed`) visible in profile.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752758/Screenshot_2025-07-17_171531_rjamhv.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+</p>
+
 - **Feedback System**: Post reviews, like food items; liked items saved in user profile.
   
 ### 🛠️ Admin Side
