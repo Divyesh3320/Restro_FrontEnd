@@ -19,7 +19,7 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 - **Admin Dashboard**: Full CRUD operations for managing:
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1742842867/m3ouel2zdx0tbk4eln4h.jpg" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752751681/Screenshot_2025-07-17_165651_bstqyn.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
 
   - Food Categories  
