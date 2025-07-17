@@ -18,7 +18,7 @@ A **full-stack web application** to manage restaurant operations efficiently wit
 - **User Authentication**: Email/password login and Google login (OAuth 2.0) using JWT.
   
 <p align="center">
-  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752352/Screenshot_2025-07-17_170822_horwug.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
+  <img src="https://res.cloudinary.com/dfojntght/image/upload/v1752752984/Screenshot_2025-07-17_171905_qddk5k.png" alt="Admin Dashboard" width="600" style="margin-top: 10px; margin-bottom: 10px;" />
 </p>
 
 - **Menu Listing**: Browse food items with category-based filtering.
